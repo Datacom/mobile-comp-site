@@ -1,0 +1,147 @@
+/* Core styles */
+
+@font-face {
+  font-family: 'americantypewriter';
+  src: url('../font/itcamericantypewriterltmedium.eot');
+  src: local('itcamericantypewriterltmedium'), url('../font/itcamericantypewriterltmedium.woff') format('woff'), url('../font/itcamericantypewriterltmedium.ttf') format('truetype');
+}
+
+html, body {
+  margin: 0;
+  background: #cccccc;
+  height: 100%;
+  color: white;
+  font-family: 'americantypewriter';
+  font-size: 14px;
+}
+
+.container {
+  margin: 0 auto;
+  background: url("../img/background.png") no-repeat;
+  background-size: 800px 1000px ;
+  width: 800px;
+  height: 1000px;
+  position: relative;
+  padding-top: 25px;
+}
+
+/* Headings */
+
+h1, h2, h3 {
+  text-align: center;
+  margin: 0;
+}
+
+h3 {
+  font-size: 36px;
+  font-weight: normal;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 0px;
+  margin-top: -30px;
+}
+
+h2 b {
+  font-size: 48px;
+}
+
+h1 img {
+  width: 100%;
+}
+
+/* Alien */
+
+img.alien {
+  position: absolute;
+  width: 250px;
+  right: 20px;
+  top: 300px;
+}
+
+/* Boxes */
+
+.box {
+  width: 400px;
+  color: black;
+  margin-left: 60px;
+  margin-top: 30px;
+  position: relative;
+}
+
+.box h1 {
+  text-align: left;
+  font-size: 24px;
+  font-weight: normal;
+  padding: 5px 0;
+}
+
+.box em {
+  font-style: normal;
+  text-decoration: underline;
+}
+
+.box div {
+  padding: 5px;
+}
+
+.box.idea {
+  background-color: rgba(146, 193, 199, 0.8);
+}
+.box.cash {
+  background-color: rgba(96, 200, 162, 0.66);
+}
+.box.info {
+  background-color: rgba(238, 212, 133, 0.75);
+}
+.box.idea h1 {
+  background-color: rgba(55, 168, 199, 0.98);
+}
+.box.cash h1 {
+  background-color: rgba(96, 222, 162, 0.98);
+}
+.box.info h1 {
+  background-color: rgba(245, 199, 23, 0.98);
+}
+
+.box h1, .box div {
+  padding-left: 55px;
+}
+
+.box img {
+  width: 166px;
+  position: absolute;
+  left: -80px;
+  top: -29px;
+}
+
+.box.info a {
+  color: #224b9a;
+  display: inline-block;
+  padding-top: 5px;
+}
+.box.info a:hover {
+  color: #2a24cc;
+}
+
+/* Form */
+
+.form-control {
+  width: 310px;
+}
+.btn {
+  margin-top: 5px;
+}
+
+/* Datacom Logo */
+
+.datacom-logo {
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+.datacom-logo img {
+  width: 150px;
+}
+
